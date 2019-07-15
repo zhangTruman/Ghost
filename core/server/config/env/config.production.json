@@ -1,21 +1,25 @@
 {
-    "database": {
-        "client": "mysql",
-        "connection": {
-            "host"     : "127.0.0.1",
-            "user"     : "root",
-            "password" : "",
-            "database" : "ghost"
-        }
-    },
-    "paths": {
-        "contentPath": "content/"
-    },
-    "logging": {
-        "level": "info",
-        "rotation": {
-            "enabled": true
-        },
-        "transports": ["file", "stdout"]
+  "url": "http://www.3wenwenwen.com",
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "user": "root",
+      "password": "zxd19931125",
+      "database": "ghost"
     }
+  },
+  "paths": {
+    "contentPath": "content/"
+  },
+  "logging": {
+    "level": "info",
+    "rotation": {
+      "enabled": true
+    },
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  }
 }
